@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Messanger</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="parent">
+      <div id="left-message">
+        <div class="r-message"><p>Hello, Hassan</p></div>
+
+        <div class="l-message"><p>je, Umar Kesy Ho</p></div>
+
+        <!-- ==== <inpu  -->
+        <div class="input">
+          <input type="text" placeholder="Enter Your Message" id="newinput" />
+          <i class="fa-regular fa-paper-plane" onclick="sendMessage()"></i>
+        </div>
+      </div>
+      <div id="right-message">
+        <div class="r-r-message"><p>Hello, Hassan</p></div>
+        <div class="l-l-message"><p>je, Umar Kesy Ho</p></div>
+        <!-- ==== <inpu  -->
+        <div class="input">
+          <input type="text" placeholder="Enter Your Message" id="newinput2" />
+          <i class="fa-regular fa-paper-plane" onclick="reciveMessage()"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="style.js"></script>
+  </body>
+</html>

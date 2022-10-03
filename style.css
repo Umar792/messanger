@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+#left-message {
+  border: 5px solid red;
+  width: 30%;
+  height: 100vh;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+#right-message {
+  border: 5px solid blue;
+  width: 30%;
+  height: 100vh;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+/* ============== r-message  */
+.r-message {
+  margin: 15px 10px;
+  padding: 8px 10px;
+  border: 1px solid red;
+  text-align: end;
+  background-color: blue;
+  color: white;
+}
+
+/* .r-message p {
+  border: 2px solid red;
+margin: 10px;
+  padding: 5px 10p
+  display: inline-block;
+} */
+.l-message {
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 8px 10px;
+  background-color: red;
+  color: white;
+}
+/* .l-message p {
+  border: 2px solid blue;
+  margin: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+} */
+
+/* ============================= input  */
+.input {
+  /* margin-top: 73vh; */
+  position: absolute;
+  top: 94vh;
+  width: 30%;
+  border-radius: 15px;
+  border-top: 1px solid grey;
+}
+.input input {
+  width: 88%;
+  padding: 7px 10px;
+  overflow: auto;
+  border: none;
+  outline: none;
+  background-color: white;
+  z-index: 99;
+}
+.input i {
+  cursor: pointer;
+  padding: 5px 6px;
+  background-color: white;
+  z-index: 99;
+}
+.input i:hover {
+  color: green;
+}
+
+/* ========================right-message */
+
+.r-r-message {
+  margin: 10px;
+  padding: 8px 10px;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+}
+/* .r-r-message p {
+  border: 2px solid red;
+  margin: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+} */
+.l-l-message {
+  border: 2px solid blue;
+  margin: 10px;
+  padding: 8px 10px;
+  background-color: blue;
+  text-align: end;
+  color: white;
+}
+/* .l-l-message p {
+  border: 2px solid blue;
+  margin: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+} */
+
+@media (max-width: 400px) {
+  #parent {
+    justify-content: space-between;
+  }
+}
